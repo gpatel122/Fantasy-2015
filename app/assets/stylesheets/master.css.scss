@@ -1,0 +1,183 @@
+.clear {
+  clear:both;
+}
+
+body
+{
+	background: url('field_dark.jpg')
+	no-repeat center center fixed; 
+			-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+}
+
+
+h1 
+{
+	color: white;
+	font-family: 'Courier New', Courier;
+	font-weight: 1000;
+	font-size: 14px;
+	margin: 2%;
+}
+
+h2 
+{
+	color: white;
+	font-family: Stencil, Forte,'Courier New';
+	font-weight: 100;
+	font-size: 18px;
+	margin: 0%;
+	text-align: center;
+}
+
+h7
+{
+	color: white;
+	font-family: Stencil, Forte,'Courier New';
+	font-weight: 100;
+	font-size: 18px;
+	margin: 0%;
+}
+
+h3 
+{
+	color: white;
+	font-family: 'Courier New', Courier;
+	font-weight: 500;
+	font-size: 90px;
+	margin: 0px;
+}
+
+h4 
+{
+	color: white;
+	font-family: Stencil, Forte,'Courier New';
+	font-weight: 100;
+	font-size: 21px;
+	margin: 0px;
+}
+
+h5
+{
+	font-family: 'Courier New', Courier;
+	font-weight: 1000;
+	font-size: 20px;
+	margin: 0px;
+}
+
+h6 
+{
+	font-family: Stencil, Forte,'Courier New';
+	font-weight: 100;
+	font-size: 24px;
+	margin: 0px;
+}
+
+p 
+{
+	color: white;
+	font-family: 'MS', MS Gothic;
+	font-weight: 100;
+}
+
+
+.box 
+{
+	background-color: rgba(5,8,1,0.0);
+	padding: 20px;
+	width: 1000px;
+	margin: 200px auto;
+	text-align: center;
+	position: relative;
+}
+
+.box1 
+{
+	background-color: rgba(27,40,23,1);
+	padding: 20px;
+	margin:  auto;
+	text-align: center;
+	border: 2px solid #fff;
+	border-radius: 20px/20px;
+}
+
+.box2 
+{
+	background-color: rgba(27,40,23,.95);
+	width: 9%;
+	margin: auto;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 20px/20px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	position: absolute;
+	visibility: show;
+}
+
+.draft
+{text-align: center;}
+
+
+.box2:hover
+{
+  background: #06D85F;
+}
+
+.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+ 	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target
+{
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup
+{
+	margin: 150px auto;
+	border-radius: 5px;
+	
+	position: relative;
+	transition: all 0.5s ease-in-out;
+}
+
+.popup .close
+{
+	position: absolute;
+	top: 23px;
+	right: 20px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: red;
+}
+
+.popup .close:hover
+{
+	color: orange;
+}
+.popup .content
+{
+	max-height: 30%;
+	overflow: auto;
+}
+
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}

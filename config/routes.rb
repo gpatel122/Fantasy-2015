@@ -1,6 +1,9 @@
 Fantasy::Application.routes.draw do
 
   root 'teams#index'
+
+  resources :teams
+  get 'draft2015', :to => 'teams#draft2015'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
